@@ -4,7 +4,7 @@ import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 import "tachyons";
 
-import Card from "./Card";
+import App from "./App";
 
-ReactDOM.render(<Card />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();
